@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f9f9f9;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(to right, #3A7BD5, #00d2ff);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add bottom margin to separate from greeting */
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 70px;           /* Increased from 45px */
+  width: 70px;            /* Increased from 45px */
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  font-family: 'Playfair Display', serif; /* Elegant serif font */
+  font-size: 36px;
+  font-weight: 700;
+  color: #f9f9f9; /* Soft white */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); /* subtle shadow for depth */
+  letter-spacing: 2px;
+  font-style: italic;
+  user-select: none; /* prevents text selection */
+}
+
+
+.date {
+  font-size: 15px;
+  font-weight: 700;      /* Make text bold */
+  color: #ffffff;        /* Pure white */
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7); /* Optional: subtle shadow for better contrast */
+}
+
+.greeting {
+  /* Remove absolute positioning */
+  /* position: absolute; */
+  /* top: 100px; */
+  /* left: 20px; */
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #333;
+  user-select: none;
+  /* Add left padding to align with content */
+  padding-left: 30px;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 500px; /* 🔼 Increased from previous value */
+  margin: 40px auto; /* centers the form */
+  text-align: center;
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.side-buttons {
+  position: fixed;
+  top: 200px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.side-buttons button {
+  padding: 10px 20px;
+  background-color: #3A7BD5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.side-buttons button:hover {
+  background-color: #0052cc;
+}
